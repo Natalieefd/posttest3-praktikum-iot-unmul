@@ -13,7 +13,6 @@ Board Schematic (Dirancang sendiri menggunakan Wokwi / Tinkercad / Fritzing )
 
 # POSTTEST3-PRAKTIKUM-IOT-UNMUL-2024
 
-<!--
 ### KELOMPOK 3
 
 | NIM | NAMA |
@@ -26,30 +25,29 @@ Board Schematic (Dirancang sendiri menggunakan Wokwi / Tinkercad / Fritzing )
 
 
 
-# Rangkaian Untuk Mengatur Kecerahan Lampu dan Nada Buzzer
+# Rangkaian monitoring suhu dan kelembaban menggunakan DHT11, LED, dan Buzzer,
 <br>
 
 ## DESKRIPSI
-Rangkaian ini menghasilkan output nilai dari kecerahan lampu dan nada buzzer yang dapat dilihat melalui WEBSERVER menggunakan NodeMCU dengan mode WIFI_STA. Terdapat 1 LED, 1 Buzzer, dan 3 Button. Button 1 dapat melakukan on/off pada kecerahan led dan nada buzzer, jika button 2 ditekan maka kecerahan lampu dan nada buzzer akan meningkat tetapi jika button 3 ditekan maka kecerahan lampu dan nada buzzer akan menurun.
-
-## CARA KERJA ALAT
-
+Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu melebihi 36°C maka buzzer akan memberi peringatan dan LED warna merah akan nyala, jika suhu dibawah 30°C LED warna Hijau akan nyala, dan jika suhu berada di 30-36°C LED warna kuning akan nyala
 
 ## PEMBAGIAN TUGAS
 
-040_Natalie Fuad       = Menngatur konfigurasi WEBSERVER, membuat rangkaian buzzer dan button tambah kurang
+040_Natalie Fuad       = Membuat rangkaian DHT11, buzzer dan LED dan mengatur konfigurasi DHT11
 <br>
-050_Sherina Laraswati  = Mengatur konfigurasi LED dan buzzer, membuat rangkaian LED dan button on/off
+047_Muhammad Irsyadul A F  = Menngatur konfigurasi WEBSERVER dan membuat konfigurasi buzzer
+<br>
+050_Sherina Laraswati  = Mmembuat rangkaian design schematic dan mengatur konfigurasi LED
 
 
 ## KOMPONEN YANG DIGUNAKAN
-- LED : untuk
-- Bread Board : untuk
-- ESP8266 : untuk
-- Kabel Jumper Male to Male : untuk
-- Resistor : untuk
-- Buzzer : untuk
-- DHT11 : untuk
+- LED : untuk indikator suhu
+- Bread Board : sebagai tempat rangkaian komponen
+- ESP8266 : untuk menghubugkan komponen ke internet melalui WIFI
+- Kabel Jumper : untuk menyambungkan komponen elektronik satu sama lain
+- Resistor : untuk menghabat arus listrik
+- Buzzer : untuk peringatan suhu berupa suara
+- DHT11 : untuk mendeteksi suhu dan kelembaban
 
 
 ## RANGKAIAN
