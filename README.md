@@ -35,7 +35,7 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 
 040_Natalie Fuad       = Membuat rangkaian DHT11, buzzer dan LED dan mengatur konfigurasi DHT11
 <br>
-047_Muhammad Irsyadul A F  = Menngatur konfigurasi WEBSERVER dan membuat konfigurasi buzzer
+047_Muhammad Irsyadul A F  = Mengatur konfigurasi buzzer
 <br>
 050_Sherina Laraswati  = Mmembuat rangkaian design schematic dan mengatur konfigurasi LED
 
