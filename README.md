@@ -55,7 +55,7 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 - DESIGN SCHEMATIC
 <div align="center">
   
-<img src="https://github.com/Natalieefd/posttest3-praktikum-iot-unmul/blob/main/Lampiran/design_schematic.png">
+<img src="https://github.com/Natalieefd/posttest3-praktikum-iot-unmul/blob/main/Lampiran/designSchematic.png">
 
 </div>
 
