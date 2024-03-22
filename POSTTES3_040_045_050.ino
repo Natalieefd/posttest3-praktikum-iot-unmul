@@ -8,10 +8,8 @@
 #define DEVICE_ID "POSTTEST2_IoT_040_050" // Lihat pada setting dari device yang sudah dibuat di thinger.io
 #define DEVICE_CREDENTIAL "0f5cCj-jb5wV6lUo" // Lihat pada setting dari device yang sudah dibuat di thinger.io (Generate random saja)
 
-// #define SSID "o.o" 
-// #define SSID_PASSWORD "mauapakamuu"
-#define SSID "hrsna" 
-#define SSID_PASSWORD "inimanusia"
+#define SSID "o.o" 
+#define SSID_PASSWORD "mauapakamuu"
 
 #define DHTPIN D6 //Pin data dari DHT terhubung ke pin D3 NodeMCU
 #define BUZZER D5 //Pin data dari DHT terhubung ke pin D5 NodeMCU
@@ -38,11 +36,6 @@ void setup() {
     dht.begin();
     thing.add_wifi(SSID, SSID_PASSWORD);
 
-    // digital pin control
-    thing["led_hijau"] << digitalPin(LEDPIN1);
-    thing["led_kuning"] << digitalPin(LEDPIN2);
-    thing["led_merah"] << digitalPin(LEDPIN3);
-
     // Setup sensor DHT11
     thing["dht11"] >> [](pson& out){
       out["kelembaban"] = kelembaban;
@@ -64,14 +57,14 @@ void loop() {
     suhu_fahrenheit = f; // Update nilai suhu
     suhu_kelvin = k; // Update nilai suhu
 
-    if (suhu_celcius >= 33){
+    if (suhu_celcius >= 36){
       digitalWrite(LEDPIN1, HIGH);
       digitalWrite(LEDPIN2, LOW);
       digitalWrite(LEDPIN3, LOW);
       tone(BUZZER, 100);
     }
     
-    if (suhu_celcius >= 30 && suhu_celcius <= 33){
+    if (suhu_celcius >= 30 && suhu_celcius <= 36){
       digitalWrite(LEDPIN1, LOW);
       digitalWrite(LEDPIN2, HIGH);
       digitalWrite(LEDPIN3, LOW);
