@@ -13,7 +13,7 @@ Board Schematic (Dirancang sendiri menggunakan Wokwi / Tinkercad / Fritzing )
 
 # POSTTEST3-PRAKTIKUM-IOT-UNMUL-2024
 
-### KELOMPOK 3
+### KELOMPOK 5
 
 | NIM | NAMA |
 |------------|:----------------------:|
@@ -55,7 +55,7 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 - DESIGN SCHEMATIC
 <div align="center">
   
-<img src="">
+<img src="https://github.com/Natalieefd/posttest3-praktikum-iot-unmul/blob/main/Lampiran/design_schematic.png">
 
 </div>
 
@@ -64,7 +64,7 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 - OUR SCHEMATIC
 <div align="center">
 
-<img src="">
+<img src="https://github.com/Natalieefd/posttest3-praktikum-iot-unmul/blob/main/Lampiran/rangkaian.jpg">
 
 </div>
 
